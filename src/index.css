@@ -38,18 +38,3 @@ body{
   min-height: 100vh;
   overflow-x: hidden;
 }
-
-::-webkit-scrollbar{
-  width: 9px;
-  height: 9px;
-}
-::-webkit-scrollbar *{
-  background: transparent;
-}
-::-webkit-scrollbar-thumb{
-  background: #9dff3a;
-  border-radius: 20px;
-}
-::-webkit-scrollbar-thumb:hover{
-  background: #9cff3a9d !important;
-}

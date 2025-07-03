@@ -2,8 +2,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Parisienne&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Merienda:wght@300..900&display=swap");
 
-@custom-variant dark (&:where(.dark, .dark *));
-
 @theme {
   --font-parisienne: {"parisienne", "sans-serif"}; 
   --color-primary: #9dff3a;

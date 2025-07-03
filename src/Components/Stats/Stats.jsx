@@ -1,7 +1,7 @@
 import React from 'react';
 
 const statsData = [
-  { title: "Max Supply", value: "10,000,000 VIBE" },
+  { title: "Max Supply", value: "10,000,000 $VIBE" },
   { title: "Transactions", value: "500k+" },
   { title: "Countries", value: "35+" },
 ];
@@ -21,7 +21,7 @@ const Stats = () => {
     <div data-aos='zoom-in' className="w-full flex md:flex-row flex-col items-center justify-center gap-[72px]">
               {statsData.map((item, index) => (
                     <div key={index} className="flex flex-col gap-5 items-center justify-center">
-                        <span className="text-primary text-[50px]">{item.value}</span>
+                        <span className="text-primary text-[50px] px-6 text-center">{item.value}</span>
                         <span className="text-gray1 text-[20px]">{item.title}</span>
                     </div>
                 ))}

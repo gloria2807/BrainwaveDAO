@@ -12,10 +12,10 @@ const Cta = () => {
                 Join VibeDAO, mint your token, and step into the future of creator-owned communities.
             </p>
             <div data-aos="fade-up" duration="600" className="flex items-center gap-5">
-                <button className='bg-primary text-black text-center cursor-pointer rounded-[40px] w-[150px] h-[50px]  hover:text-primary hover:bg-black hover:border-b-2 hover:border-amber-200'>
+                <button className='pr-6 bg-primary text-black text-center cursor-pointer rounded-[40px] w-[150px] h-[50px]  hover:text-primary hover:bg-black hover:border-b-2 hover:border-amber-200'>
                     Connect Wallet
                 </button>
-                <button className='text-white border-b-2 border-amber-100 text-center cursor-pointer rounded-[40px] w-[190px] h-[50px] hover:text-primary hover:bg-black hover:border-b-2 hover:border-primary'>
+                <button className='pl-6 text-white border-b-2 border-amber-100 text-center cursor-pointer rounded-[40px] w-[190px] h-[50px] hover:text-primary hover:bg-black hover:border-b-2 hover:border-primary'>
                     Explore the DAO
                 </button>
             </div>

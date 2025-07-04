@@ -9,7 +9,7 @@ const Hero = () => {
                 <span className='bg-primary w-[9px] h-[9px] rounded-full' />
                 <span className='text-primary text-sm'>Decentralized</span>
             </div>
-            <div data-aos="fade-up" duration="200" className='text-light font-bold md:text-[74px] text-[45px] max-w-[661px] md:leading-[80px]'>
+            <div data-aos="fade-up" duration="200" className='text-light font-bold md:text-[74px] text-[40px] max-w-[661px] md:leading-[80px]'>
                 Unlock Access. Earn Your Influence.
             </div>
             <p data-aos="fade-up" duration="400" className='text-white text-[20px] max-w-[600px]'>
